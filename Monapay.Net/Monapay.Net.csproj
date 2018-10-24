@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>The MonaPay.Net API allows developers to integrate monapay wallet system into their .Net applications capable of displaying a webpage for user interactivity. This wallet can easily be funded via User airtime balance or with any credit or debit cards. International cards can also be used.</Description>
+    <PackageLicenseUrl>https://github.com/fzany/Monapay.Net/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>https://github.com/fzany/Monapay.Net/blob/master/LICENSE</Copyright>
+    <PackageProjectUrl>https://github.com/fzany/Monapay.Net</PackageProjectUrl>
+    <PackageIconUrl>http://res.cloudinary.com/fzany-inc/image/upload/v1528457505/Monapay_favicon_xckejv.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/fzany/Monapay.Net</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Payment, Airtime, Nigeria, mobile-Payment</PackageTags>
+    <PackageReleaseNotes>New Monapay API Integration, GET fix.</PackageReleaseNotes>
+    <Authors>Olorunfemi Ajibulu</Authors>
+    <Company>Booksrite</Company>
+    <Version>1.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
 
 </Project>
